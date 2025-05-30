@@ -1,11 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dudu - Diverge</title>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
-<body>
-    
+<!--Pushes Footer Down-->
+
+<body class="d-flex flex-column min-vh-100">
+  <!--Navbar-->
+  <nav id="navbar" class="navbar navbar-expand-md fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" aria-label="Go to Home page">
+        <img src="assets/images/mainpage/navbar-logo.png" alt="Dudu & Bubu Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-md-auto" style="display: inline-flex">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <h4>Home</h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html" aria-label="Contact Us Page">
+              <h4>Contact Us</h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--End Navbar-->
+
+  <!--Header-->
+  <header aria-label="Introduction to Dudu, the Autistic Warrior">
+    <div class="container-lg">
+      <div class="text-center my-5">
+        <h1 class="display-2">Dudu!</h1>
+        <h2 class="display-6">The Autistic Warrior!</h2>
+        <p class="my-4 col-12 col-sm-8 col-lg-6 g-4 mx-auto">
+          Dudu: The Autistic Warrior is a heartfelt and action-packed story
+          about a young hero named Dudu, a brave autistic warrior who sees the
+          world differently—and that’s his greatest strength. Armed with
+          unique abilities and unwavering determination, Dudu battles
+          ignorance, injustice, and fear to protect his community and inspire
+          others. This empowering tale celebrates neurodiversity, resilience,
+          and the power of embracing who you truly are.
+        </p>
+      </div>
+    </div>
+  </header>
+  <!--End Header-->
+
+  <!--Main Content-->
+  <main>
+    <!--Character Dudu Section-->
+    <section id="character-page" class="container section" aria-label="Dudu Powers and Abilities">
+      <div class="row character-dudu">
+        <div class="col-12 text-center">
+          <h2 class="display-6">Dudu Powers:</h2>
+        </div>
+
+        <!-- Dudu Card 1-->
+        <div class="col-12 col-md-6 col-lg-4 pt-4">
+          <div class="card h-100">
+            <img src="assets/images/dudu/duduasleep4k.png" class="card-img-top" alt="Dudu sleeping peacefully">
+            <div class="card-body">
+              <h3 class="card-title sub-heading-color">Super Focus Mode</h3>
+              <p class="card-text">
+                <i>When the world is chaotic, Dudu zooms in.</i><br>
+                Dudu channels his deep focus to master skills and strategies
+                others overlook, making him unbeatable in high-pressure
+                situations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Dudu End Card 1-->
+
+        <!-- Dudu Card 2-->
+        <div class="col-12 col-md-6 col-lg-4 pt-4">
+          <div class="card h-100">
+            <img src="assets/images/dudu/duduusingbubuasshield4k.png" class="card-img-top"
+              alt="Dudu using Bubu as a shield">
+            <div class="card-body">
+              <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
+              <h3 class="card-title sub-heading-color">Sensory Shield</h3>
+              <p class="card-text">
+                <i>Loud sounds and bright lights? Dudu’s got a plan.</i><br>
+                He wears custom gear and practices calming routines to manage
+                sensory overload, turning discomfort into control.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Dudu End Card 2-->
+
+        <!-- Dudu Card 3-->
+        <div class="col-12 col-md-6 col-lg-4 pt-4">
+          <div class="card h-100">
+            <img src="assets/images/dudu/duduonphone4k.png" class="card-img-top"
+              alt="Dudu on the phone with a friend">
+            <div class="card-body">
+              <h3 class="card-title sub-heading-color">
+                Communication Blade
+              </h3>
+              <p class="card-text">
+                <i>Words don’t always come easy—but Dudu finds his way.</i><br>
+                He uses clear, direct language and visual tools to express
+                himself, helping others understand his world and building
+                strong connections.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Dudu End Card 3-->
+
+        <!-- Dudu Card 4-->
+        <div class="col-12 col-md-6 col-lg-4 pt-4">
+          <div class="card h-100">
+            <img src="assets/images/dudu/dudueatingcrisps4k.png" class="card-img-top" alt="Dudu eating crisps">
+            <div class="card-body">
+              <h3 class="card-title sub-heading-color">Routine Rune</h3>
+              <p class="card-text">
+                <i>Structure brings strength.</i><br>
+                By following set routines, Dudu creates a sense of stability,
+                allowing him to face unpredictable battles with confidence.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Dudu End Card 4-->
+
+        <!-- Dudu Card 5-->
+        <div class="col-12 col-md-6 col-lg-4 pt-4">
+          <div class="card h-100">
+            <img src="assets/images/dudu/dudueggonface4k.png" class="card-img-top"
+              alt="Dudu with an egg on his face">
+            <div class="card-body">
+              <h3 class="card-title sub-heading-color">Detail Vision</h3>
+              <p class="card-text">
+                <i>Where others see noise, Dudu sees patterns.</i><br>
+                His ability to notice tiny details and think differently makes
+                him a master at solving puzzles, spotting traps, and
+                outsmarting enemies.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Dudu End Card 5-->
+
+        <!-- Dudu Card 6-->
+        <div class="col-12 col-md-6 col-lg-4 pt-4">
+          <div class="card h-100">
+            <img src="assets/images/dudu/duduholdingaballoon4k.png" class="card-img-top"
+              alt="Dudu holding a balloon">
+            <div class="card-body">
+              <h3 class="card-title sub-heading-color">Loyal Heart</h3>
+              <p class="card-text">
+                <i>Dudu doesn’t give up on people.</i><br>
+                Though social rules can be tricky, his honesty and loyalty
+                make him a true and trusted friend who always stands up for
+                what's right.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Dudu End Card 6-->
+      </div>
+    </section>
+    <!--End Character Dudu Section-->
+
+    <!--Select Bubu-->
+    <section id="character-footer" class="container" aria-label="Go to Bubu character page.">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="display-6">Bubu:</h2>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 g-4 mx-auto">
+          <div class="character-bubu h-100">
+            <a href="bubu.html" class="text-decoration-none text-dark">
+              <div class="card h-100">
+                <img src="assets/images/mainpage/bubudressedup.png" class="card-img-top img-fluid" style="height: auto"
+                  alt="bubu dressed up">
+                <div class="card-body">
+                  <h2 class="card-title">Bubu:</h2>
+                  <h3 class="card-subtitle mb-2">The ADHD Wizard</h3>
+                  <p class="card-text">
+                    A whimsical ADHD wizard who uses her creativity and
+                    imagination to overcome obstacles and bring joy to others.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Select Bubu-->
+
+  </main>
+
+  <!--End Main Content-->
+
+  <!--Footer-->
+  <footer id="footer" class="mt-auto">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 text-center">
+          <h2>Social Links:</h2>
+          <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank" aria-label="Visit Our Instagram Page (Opens New Tab)"><i
+                class="fa-brands fa-instagram" rel="noopener"></i></a>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Visit Our Facebook Page (Opens New Tab)"><i
+                class="fa-brands fa-square-facebook" rel="noopener"></i></a>
+            <a href="https://x.com" target="_blank" aria-label="Visit Our X Page (Opens New Tab)"><i
+                class="fa-brands fa-x-twitter" rel="noopener"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--End Footer-->
+
+  <!-- Load Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+  <!--End Bootstrap JS-->
+
+  <!-- Load Font Awesome -->
+  <script src="https://kit.fontawesome.com/8cf1e37912.js" crossorigin="anonymous"></script>
+  <!--End Font Awesome-->
+
+  <!-- JavaScript code Navbar collapses when navigating to in-page links -->
+  <script>
+    document
+      .querySelectorAll(".navbar-collapse .nav-link")
+      .forEach((link) => {
+        link.addEventListener("click", function (e) {
+          let section = document.querySelector(e.target.getAttribute("href"));
+          if (section) {
+            e.preventDefault(); // Prevent default anchor click behavior
+            let navbarHeight =
+              document.querySelector(".navbar-toggler").offsetHeight;
+            window.scroll({
+              top: section.offsetTop - navbarHeight, // Adjust for navbar height
+              behavior: "smooth",
+            });
+            document
+              .querySelector(".navbar-collapse")
+              .classList.remove("show"); // Collapse navbar
+          }
+        });
+      });
+  </script>
+  <!--End JavaScript code-->
 </body>
+
 </html>
