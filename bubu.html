@@ -1,11 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bubu - Diverge</title>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
-<body>
-    
+<!--Pushes Footer Down-->
+
+<body class="d-flex flex-column min-vh-100">
+  <!--Navbar-->
+  <nav id="navbar" class="navbar navbar-expand-md fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" aria-label="Go to Home page">
+        <img src="assets/images/mainpage/navbar-logo.png" alt="Dudu & Bubu Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-md-auto" style="display: inline-flex">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">
+              <h4>Home</h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html" aria-label="Contact Us Page">
+              <h4>Contact Us</h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--End Navbar-->
+
+  <!--Header-->
+  <header aria-label="Introduction to Bubu, the ADHD Wizard">
+    <div class="container-lg">
+      <div class="text-center my-5">
+        <h1 class="display-2">Bubu!</h1>
+        <h2 class="display-6">The ADHD Wizard!</h2>
+        <p class="my-4 col-12 col-sm-8 col-lg-6 g-4 mx-auto">
+          Bubu: The ADHD Wizard is a vibrant and magical story about a young
+          spellcaster named Bubu, a fearless wizard with ADHD whose fast-paced
+          mind and boundless energy become her greatest gifts. Fueled by
+          curiosity, creativity, and heart, Bubu navigates a world full of
+          distractions and challenges, using her unique thinking to solve
+          problems, spark wonder, and defend what matters most. This
+          empowering tale celebrates neurodiversity, imagination, and the
+          magic of embracing how your mind truly works.
+        </p>
+      </div>
+    </div>
+  </header>
+  <!--End Header-->
+
+  <!--Main Content-->
+  <main>
+    <!--Character Bubu Section-->
+    <section id="character-page" class="container section" aria-label="Bubu Powers and Abilities">
+      <div class="row character-bubu">
+        <div class="col-12 text-center">
+          <h2 class="display-6">Bubu Powers:</h2>
+        </div>
+
+        <!-- Bubu Card 1-->
+        <div class="col-12 col-md-6 col-lg-4 pt-4">
+          <div class="card h-100">
+            <img src="assets/images/bubu/bubuasleepwithbook4k.png" class="card-img-top" alt="Bubu sleeping peacefully">
+            <div class="card-body">
+              <h3 class="card-title sub-heading-color">Hyperfocus Spell</h3>
+              <p class="card-text">
+                <i>When inspiration strikes, Bubu becomes unstoppable.</i><br>
+                She uses bursts of deep concentration to master powerful
+                spells and complete quests in record time—before the magic
+                fades.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Bubu End Card 1-->
+
+        <!-- Bubu Card 2-->
+        <div class="col-12 col-md-6 col-lg-4 pt-4">
+          <div class="card h-100">
+            <img src="assets/images/bubu/bubuangrywithchickenhat4k.png" class="card-img-top"
+              alt="Bubu looking angry with a chicken hat">
+            <div class="card-body">
+              <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
+              <h3 class="card-title sub-heading-color">Quick-Think Dash</h3>
+              <p class="card-text">
+                <i>Fast mind, faster moves.</i><br>
+                Bubu’s rapid thinking lets her react instantly in chaotic
+                situations, turning impulsivity into quick and clever
+                spellcasting.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Bubu End Card 2-->
+
+        <!-- Bubu Card 3-->
+        <div class="col-12 col-md-6 col-lg-4 pt-4">
+          <div class="card h-100">
+            <img src="assets/images/bubu/bubufingerguns4k.png" class="card-img-top" alt="Bubu with finger guns">
+            <div class="card-body">
+              <h3 class="card-title sub-heading-color">Energy Burst</h3>
+              <p class="card-text">
+                <i>Too much energy? Perfect for big magic.</i><br>
+                Instead of sitting still, Bubu channels her restlessness into
+                movement-based magic, fueling powerful spells with her
+                boundless energy.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Bubu End Card 3-->
+
+        <!-- Bubu Card 4-->
+        <div class="col-12 col-md-6 col-lg-4 pt-4">
+          <div class="card h-100">
+            <img src="assets/images/bubu/bubuwithmedals4k.png" class="card-img-top" alt="Bubu with medals">
+            <div class="card-body">
+              <h3 class="card-title sub-heading-color">Chaos Compass</h3>
+              <p class="card-text">
+                <i>Lost in distractions? Not Bubu.</i><br>
+                She uses enchanted tools—like magical checklists and timers—to
+                stay on track and guide her wild mind through complex
+                missions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Bubu End Card 4-->
+
+        <!-- Bubu Card 5-->
+        <div class="col-12 col-md-6 col-lg-4 pt-4">
+          <div class="card h-100">
+            <img src="assets/images/bubu/bububigpencil4k.png" class="card-img-top" alt="Bubu with a big pencil">
+            <div class="card-body">
+              <h3 class="card-title sub-heading-color">Creative Storm</h3>
+              <p class="card-text">
+                <i>Rules? Bubu bends them with flair.</i><br>
+                Her out-of-the-box thinking helps her invent new spells, solve
+                problems creatively, and surprise even the wisest wizards.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Bubu End Card 5-->
+
+        <!-- Bubu Card 6-->
+        <div class="col-12 col-md-6 col-lg-4 pt-4">
+          <div class="card h-100">
+            <img src="assets/images/bubu/bubustuffingduduinglass4k.png" class="card-img-top"
+              alt="Bubu stuffing Dudu in a glass">
+            <div class="card-body">
+              <h3 class="card-title sub-heading-color">Heart of Fire</h3>
+              <p class="card-text">
+                <i>Big feelings mean big passion.</i><br>
+                Bubu’s emotions may come fast and strong, but they fuel her
+                empathy, courage, and fierce loyalty to her friends and cause.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Bubu End Card 6-->
+      </div>
+    </section>
+    <!--End Character Bubu Section-->
+
+    <!--Select Dudu-->
+    <section id="character-footer" class="container" aria-label="Go to Dudu character page.">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="display-6">Dudu:</h2>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 g-4 mx-auto">
+          <div class="character-dudu h-100">
+            <a href="dudu.html" class="text-decoration-none text-dark">
+              <div class="card h-100">
+                <img src="assets/images/mainpage/dudu-tie.png" class="card-img-top img-fluid" style="height: auto"
+                  alt="Dudu dressed up">
+                <div class="card-body">
+                  <h3 class="card-title">Dudu:</h3>
+                  <h4 class="card-subtitle mb-2">The Autistic Warrior</h4>
+                  <p class="card-text">
+                    A brave Autistic warrior who uses their unique strengths to
+                    fight injustice and inspire others.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Select Bubu-->
+  </main>
+  <!--End Main Content-->
+
+  <!--Footer-->
+  <footer id="footer" class="mt-auto">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 text-center">
+          <h2>Social Links:</h2>
+          <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank" aria-label="Visit Our Instagram Page (Opens New Tab)"><i
+                class="fa-brands fa-instagram" rel="noopener"></i></a>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Visit Our Facebook Page (Opens New Tab)"><i
+                class="fa-brands fa-square-facebook" rel="noopener"></i></a>
+            <a href="https://x.com" target="_blank" aria-label="Visit Our X Page (Opens New Tab)"><i
+                class="fa-brands fa-x-twitter" rel="noopener"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--End Footer-->
+
+  <!-- Load Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+  <!--End Bootstrap JS-->
+
+  <!-- Load Font Awesome -->
+  <script src="https://kit.fontawesome.com/8cf1e37912.js" crossorigin="anonymous"></script>
+  <!--End Font Awesome-->
+
+  <!-- JavaScript code Navbar collapses when navigating to in-page links -->
+  <script>
+    document
+      .querySelectorAll(".navbar-collapse .nav-link")
+      .forEach((link) => {
+        link.addEventListener("click", function (e) {
+          let section = document.querySelector(e.target.getAttribute("href"));
+          if (section) {
+            e.preventDefault(); // Prevent default anchor click behavior
+            let navbarHeight =
+              document.querySelector(".navbar-toggler").offsetHeight;
+            window.scroll({
+              top: section.offsetTop - navbarHeight, // Adjust for navbar height
+              behavior: "smooth",
+            });
+            document
+              .querySelector(".navbar-collapse")
+              .classList.remove("show"); // Collapse navbar
+          }
+        });
+      });
+  </script>
+  <!--End JavaScript code-->
 </body>
+
 </html>
