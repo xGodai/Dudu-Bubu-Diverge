@@ -86,7 +86,6 @@ footer {
 /* Dudu Card Styles */
 
 .character-dudu .card {
-  margin-left: 1.5rem;
   margin-bottom: 2rem;
   height: 95%;
   background-color: var(--dudu-card-color);
@@ -108,7 +107,6 @@ footer {
 /* Bubu Card Styles */
 
 .character-bubu .card {
-  margin-left: 1.5rem;
   margin-bottom: 2rem;
   height: 95%;
   background-color: var(--bubu-card-color); /* Light Pink Background */
@@ -130,7 +128,6 @@ footer {
 /* Character Card Contact Us */
 
 .contact-us-card .card {
-  margin-left: 1.5rem;
   margin-bottom: 2rem;
   height: 95%;
   background-color: var(--contact-us-color); /* Light Orange Background */
@@ -148,7 +145,6 @@ footer {
 /* Success Page Card Styles */
 
 .success-card .card {
-  margin-left: 1.5rem;
   margin-bottom: 2rem;
   height: 95%;
   background-color: var(--success-card-color); /* Light Pink Background */
