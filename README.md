@@ -67,6 +67,10 @@ The color scheme is thoughtfully selected to accommodate a broad range of sensor
 - Headings: *Pacifico*, cursive
 - Body Text: *Poetsen One*, sans-serif
 
+### Imagery
+
+Original art and imagery are used throughout the site to express the world of Dudu & Bubu in a whimsical and heartfelt way by [Huang Xiao B (黄小B)]
+
 ### WireFrames
 
 Wireframes were designed for both desktop and mobile responsiveness, ensuring optimal usability across devices.
@@ -74,9 +78,6 @@ Wireframes were designed for both desktop and mobile responsiveness, ensuring op
 ![Desktop](documentation/images/wireframes/desktop.PNG)
 ![Mobile](documentation/images/wireframes/phone.PNG)
 
-### Imagery
-
-Original art and imagery are used throughout the site to express the world of Dudu & Bubu in a whimsical and heartfelt way.
 
 ## Features
 ![Bubu Sitting on Dudu](documentation/images/Features.png)
@@ -126,7 +127,8 @@ Original art and imagery are used throughout the site to express the world of Du
   ![Code Validation Index Page](documentation/images/code%20validation/index%20code%20validation.PNG)
 - [CSS Validation Index Page](https://jigsaw.w3.org/css-validator/)
   ![CSS Validation Index Page](documentation/images/code%20validation/css%20code%20validation.PNG)
-
+- [Light House Testing](https://developer.chrome.com/docs/lighthouse/overview)
+  ![Light House Results](documentation/images/code%20validation/main%20page%20performace.PNG)
 ## Credits
 
 - Website designed and developed by [xGodai]
