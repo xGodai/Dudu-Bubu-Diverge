@@ -1,5 +1,5 @@
 # Dudu & Bubu Diverge
-
+![Dudu and Bubu Having Bubble Tea](documentation/images/BubbleTea.png)
 <p align="center">
   <a href="https://xgodai.github.io/Dudu-Bubu-Diverge/index.html" target="_blank">
     Live Preview.
@@ -36,13 +36,14 @@
 
 ### Key Objectives
 
+![Dudu and Bubu Playing Jenga](documentation/images/BoardGame.png)
 - Create an accessible and visually appealing website
 - Celebrate neurodivergence and inclusivity
 - Tell unique stories through interactive web design
 - Encourage exploration and engagement through UX elements
 
 ## UX Design
-
+![Bubu Looking Through Binoculars](documentation/images/Looking.png)
 ### User Stories
 
 - As a user, I want to easily navigate between different stories and experiences.
@@ -55,34 +56,35 @@ The color scheme is thoughtfully selected to accommodate a broad range of sensor
 
 ### Main Palette
 
-- Soft Pastel Blue: `#A3D2CA`
-- Gentle Coral: `#F7B2AD`
-- Warm Beige: `#F1E3D3`
-- Charcoal Text: `#2E2E2E`
-- Accent Yellow: `#FFE156`
+- Background Color: #bfecff - Light Blue
+- Dudu Card Color: #96d8b5 - Light Green
+- Bubu Card Color: #f1f0ff - Light Pink
+- Contact Us Card: #ffb74d - Orange
+- Success Card: #e6308a - Pink
 
 ### Fonts
 
-- Headings: *Poppins*, sans-serif
-- Body Text: *Open Sans*, sans-serif
+- Headings: *Pacifico*, cursive
+- Body Text: *Poetsen One*, sans-serif
 
 ### WireFrames
 
 Wireframes were designed for both desktop and mobile responsiveness, ensuring optimal usability across devices.
 
-> _[Add images or links to wireframes here]_
+![Desktop](documentation/images/wireframes/desktop.PNG)
+![Mobile](documentation/images/wireframes/phone.PNG)
 
 ### Imagery
 
 Original art and imagery are used throughout the site to express the world of Dudu & Bubu in a whimsical and heartfelt way.
 
 ## Features
-
+![Bubu Sitting on Dudu](documentation/images/Features.png)
 ### General Features
 
 - Responsive layout
 - Engaging narrative structure
-- Subtle animations and transitions for accessibility
+- Subtle transitions for accessibility
 
 ### Navigation
 
@@ -97,39 +99,43 @@ Original art and imagery are used throughout the site to express the world of Du
 ## Built With
 
 ### Technologies and Languages
+![Static Badge](https://img.shields.io/badge/HTML5-Language-grey?logo=html5&logoColor=%23ffffff&color=%23E34F26)
+![Static Badge](https://img.shields.io/badge/CSS3-Language-grey?logo=css3&logoColor=%23ffffff&color=%231572B6)
 
-- HTML5
-- CSS3
-- JavaScript
+<a href="https://git-scm.com/" target=_blank_>![Static Badge](https://img.shields.io/badge/Git-v2.46.2-grey?logo=git&logoColor=%23ffffff&color=%23F05032)</a>
+<a href="https://github.com/" target="_blank">![Static Badge](https://img.shields.io/badge/GitHub-Repo_Hosting-white?logo=github&logoColor=%23ffffff&color=%23181717)</a>
+<a href="https://www.gitpod.io/" target="_blank">![Static Badge](https://img.shields.io/badge/Gitpod-IDE-white?logo=gitpod&logoColor=%23ffffff&color=%23FFAE33)</a>
 
 ### Libraries and Frameworks
+<a href="https://getbootstrap.com/" target="_blank">![Static Badge](https://img.shields.io/badge/Bootstrap-v5.3.3-grey?logo=bootstrap&logoColor=%23ffffff&color=%237952B3)</a>
+<a href="#" target="_blank">![Static Badge](https://img.shields.io/badge/Font_Awesome-Icons-grey?logo=fontawesome&logoColor=%23ffffff&color=%23538DD7)</a>
+<a href="#" target="_blank">![Static Badge](https://img.shields.io/badge/Google_Fonts-Fonts-grey?logo=googlefonts&logoColor=%23ffffff&color=%234285F4)</a>
 
-- [Bootstrap 5](https://getbootstrap.com/)
-- [jQuery](https://jquery.com/) (if applicable)
 
 ### Tools and Programs
-
-- Visual Studio Code
-- Figma (for design and wireframes)
-- Git & GitHub
-- Photoshop / Canva (for imagery)
+<a href="https://balsamiq.com/wireframes/" target="_blank">![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-grey?logoColor=%23ffffff&color=%23CC0100)</a>
+ 
 
 ## Testing
 
-- Manual testing across different browsers and screen sizes
-- Accessibility testing using Lighthouse and WAVE
-- Responsive design verification on mobile and tablet devices
+![Bubu Testing Dudu](documentation/images/Testing.png)
 
-> _[Add more detailed testing outcomes and any bug fixes here]_
+- HTML Testing has been done across all HTML Docs.
+
+- [HTML Validation](https://validator.w3.org)
+  ![Code Validation Index Page](documentation/images/code%20validation/index%20code%20validation.PNG)
+- [CSS Validation Index Page](https://jigsaw.w3.org/css-validator/)
+  ![CSS Validation Index Page](documentation/images/code%20validation/css%20code%20validation.PNG)
 
 ## Credits
 
-- Website designed and developed by [Your Name or Team Name]
-- Illustrations by [Artist Name if applicable]
+- Website designed and developed by [xGodai]
+- Illustrations by [Huang Xiao B (黄小B)]
 - Fonts provided by [Google Fonts](https://fonts.google.com/)
 - Bootstrap framework from [getbootstrap.com](https://getbootstrap.com/)
-- Special thanks to the neurodivergent community for inspiring this project
+- Special Thanks, Wendy NG.
+![Dudu and Bubu On A Scooter](documentation/images/Scooter.png)
 
 ---
 
-Feel free to adapt and expand this README based on the specifics of your project and collaborators.
+
