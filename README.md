@@ -116,6 +116,8 @@ Wireframes were designed for both desktop and mobile responsiveness, ensuring op
 
 ### Tools and Programs
 <a href="https://balsamiq.com/wireframes/" target="_blank">![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-grey?logoColor=%23ffffff&color=%23CC0100)</a>
+<a href="https://imageresizer.com" target="_blank">![Static Badge](https://img.shields.io/badge/ImageResizer-ImageCompression-grey?logoColor=%23ffffff&color=%)
+
 
 ### AI
 - Content Creation such as Paragraphs and Descriptions.
