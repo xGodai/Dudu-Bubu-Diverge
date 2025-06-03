@@ -29,6 +29,7 @@
   - [Technologies and Languages](#technologies-and-languages)
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Tools and Programs](#tools-and-programs)
+  - [AI](#ai)
 - [Testing](#testing)
 - [Credits](#credits)
 
