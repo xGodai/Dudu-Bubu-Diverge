@@ -37,10 +37,10 @@
 ### Key Objectives
 
 ![Dudu and Bubu Playing Jenga](documentation/images/BoardGame.png)
-- Create an accessible and visually appealing website
-- Celebrate neurodivergence and inclusivity
-- Tell unique stories through interactive web design
-- Encourage exploration and engagement through UX elements
+- Create an accessible and visually appealing website.
+- Celebrate neurodivergence and inclusivity.
+- Tell unique stories through interactive web design.
+- Encourage exploration and engagement through UX elements.
 
 ## UX Design
 ![Bubu Looking Through Binoculars](documentation/images/Looking.png)
@@ -83,19 +83,19 @@ Wireframes were designed for both desktop and mobile responsiveness, ensuring op
 ![Bubu Sitting on Dudu](documentation/images/Features.png)
 ### General Features
 
-- Responsive layout
-- Engaging narrative structure
-- Subtle transitions for accessibility
+- Responsive layout.
+- Engaging narrative structure.
+- Subtle transitions for accessibility.
 
 ### Navigation
 
-- Fixed top navigation bar with clear links
-- Smooth scrolling between sections
+- Fixed top navigation bar with clear links.
+- Smooth scrolling between sections.
 
 ### Bootstrap Cards
 
-- Custom-styled Bootstrap cards to showcase characters, stories, and destinations
-- Includes hover effects and modals for extended interaction
+- Custom-styled Bootstrap cards to showcase characters, stories, and destinations.
+- Includes hover effects and modals for extended interaction.
 
 ## Built With
 
@@ -115,13 +115,17 @@ Wireframes were designed for both desktop and mobile responsiveness, ensuring op
 
 ### Tools and Programs
 <a href="https://balsamiq.com/wireframes/" target="_blank">![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-grey?logoColor=%23ffffff&color=%23CC0100)</a>
+
+### AI
+- Content Creation such as Paragraphs and Descriptions.
+- Aria Labeling.
  
 
 ## Testing
 
 ![Bubu Testing Dudu](documentation/images/Testing.png)
 
-- HTML Testing has been done across all HTML Docs.
+- HTML Testing has been done across all HTML (See Documentation Folder For all Pages).
 
 - [HTML Validation](https://validator.w3.org)
   ![Code Validation Index Page](documentation/images/code%20validation/index%20code%20validation.PNG)
